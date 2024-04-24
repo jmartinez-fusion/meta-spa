@@ -1,0 +1,83 @@
+.presentationStep {
+  display: flex;
+  gap: 15px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  background: var(--white-base);
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  transition: all 200ms ease;
+}
+
+.selected {
+  border: 1px solid var(--primary-color);
+}
+
+.externalActions {
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  gap: 10px;
+}
+
+.stepNumber {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.changeOrder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  gap: 5px;
+}
+
+.changeOrderAction {
+  transition: all 200ms ease;
+  cursor: pointer;
+  font-size: 22px;
+
+  &:hover {
+    color: var(--primary-color) ;
+    transform: scale(1.1);
+    transition: all 200ms ease;
+  }
+}
+
+.deleteContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.deleteAction {
+  transition: all 200ms ease;
+  cursor: pointer;
+  color: var(--error-color);
+  font-size: 23px;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease;
+  }
+}
+
+.stepContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

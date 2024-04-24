@@ -1,0 +1,39 @@
+.boxInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-top: 15px;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.itemTitle {
+  text-align: left;
+  min-width: 130px;
+}
+
+.item {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.itemLink {
+  color: var(--primary-color);
+  font-weight: 400;
+  text-decoration: underline;
+  margin-right: 10px;
+}

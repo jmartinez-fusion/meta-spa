@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: var(--secondary-color);
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.doubleContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}

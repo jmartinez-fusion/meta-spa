@@ -1,0 +1,30 @@
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.error {
+  display: flex;
+  gap: 20px;
+  font-weight: 400;
+  width: 100%;
+  font-size: 12px;
+}
+
+.row {
+  font-weight: 700;
+  min-width: 45px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--error-color)
+}

@@ -1,0 +1,25 @@
+.container {
+  background-position: center center;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 387px;
+  border: 1px solid var(--input-bg-color);
+  position: relative;
+  width: 100%;
+}
+
+.commentBubble {
+  color: var(--primary-color);
+  position: absolute;
+  z-index: 5000;
+  transition: all 200ms ease;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--primary-hover-color) ;
+    transform: scale(1.1);
+    transition: all 200ms ease;
+  }
+}
+

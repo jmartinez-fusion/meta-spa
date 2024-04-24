@@ -1,0 +1,101 @@
+@import 'src/styles/mixins.module.scss';
+
+$mainLayoutGridArea: 'header header' 'sidebar main';
+$mainLayoutMobileGridArea: 'header' 'main';
+/* headerHeight contentHeight / sidebarWidth contentWidth */
+$mainLayoutGridTemplate: var(--header-height) 1fr / var(--sidebar-width) 1fr;
+$mainLayoutGridTemplateCollapsedSideBar: var(--header-height) 1fr / 75px 1fr;
+/* headerHeight contentHeight / contentWidth */
+$mainLayoutMobileGridTemplate: var(--header-height) / minmax(auto, 100%);
+
+.wrapper {
+  flex: 1;
+  display: grid;
+  grid-template: $mainLayoutGridTemplate;
+  grid-template-areas: $mainLayoutGridArea;
+
+  @include media-breakpoint-down(md) {
+    grid-template: $mainLayoutMobileGridTemplate;
+    grid-template-areas: $mainLayoutMobileGridArea;
+    overflow-x: hidden;
+  }
+}
+
+.collapsedSideBar {
+  grid-template: $mainLayoutGridTemplateCollapsedSideBar;
+  grid-template-areas: $mainLayoutGridArea;
+
+  .sidebar {
+    width: 75px !important;
+    transition: width 100ms linear;
+  }
+}
+
+.header {
+  grid-area: header;
+  display: none;
+  position: fixed;
+  z-index: 5000;
+  height: var(--top-mobile-header-height);
+  flex-direction: column;
+  width: 100vw;
+
+  @include media-breakpoint-down(md) {
+    display: flex;
+  }
+}
+
+.sidebar {
+  grid-area: sidebar;
+  position: fixed;
+  z-index: 4999;
+  flex: 1;
+  height: 100vh;
+  background: var(--white-base);
+  display: flex;
+  width: 222px;
+  transition: width 100ms ease;
+  flex-direction: column;
+
+  @include media-breakpoint-down(md) {
+    top: var(--top-mobile-header-height);
+    width: 85vw !important;
+    height: calc(100% - var(--top-mobile-header-height));
+    position: fixed;
+    left: -100%;
+    max-width: 285px;
+    transition: left 400ms linear;
+  }
+}
+
+.visibleMobileSideBar {
+  left: 0;
+  transition: left 400ms linear;
+}
+
+.overlay {
+  background: rgba(84, 84, 84, 0.7);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 649;
+  top: 0;
+  display: none;
+}
+
+.visibleOverlay {
+  @include media-breakpoint-down(md) {
+    display: initial;
+  }
+}
+
+.main {
+  grid-area: main;
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  max-height: 100%;
+  @include media-breakpoint-down(md) {
+    margin-top: var(--top-mobile-header-height);
+  }
+}

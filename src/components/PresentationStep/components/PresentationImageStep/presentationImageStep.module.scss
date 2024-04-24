@@ -1,0 +1,7 @@
+.imageStepContainer {
+  display: grid;
+  grid-template-columns: minmax(644px, 1fr) 1fr;
+  gap: 20px;
+  width: 100%;
+  padding-left: 10px;
+}

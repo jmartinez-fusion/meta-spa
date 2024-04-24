@@ -1,0 +1,27 @@
+.modalContent {
+  border-radius: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+  padding: 15px 0;
+  gap: 30px;
+}
+
+.deleteButton {
+  cursor: pointer;
+  font-size: 24px;
+  transition: all 200ms ease-in-out;
+  color: var(--error-color);
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out;
+  }
+}

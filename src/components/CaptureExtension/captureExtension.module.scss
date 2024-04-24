@@ -1,0 +1,36 @@
+.mainContainer {
+  display: flex;
+  align-self: center;
+  margin-top: 15px;
+}
+
+.installedContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notInstalledContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #969696;
+}
+
+.extensionIcon {
+  width: 55px;
+}
+
+.installButton {
+  background: #42C39C;
+  color: var(--white-base);
+  border-radius: 23px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 3px 16px 3px 20px;
+}

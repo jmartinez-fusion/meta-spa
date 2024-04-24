@@ -1,0 +1,36 @@
+.mainContainer {
+  padding: 10px 15px;
+  border-radius: 7px;
+  background: var(--white-base);
+  cursor: pointer;
+  border: 1px solid var(--white-base);
+  box-shadow: 0px 1px 8px 3px rgba(0, 0, 0, 0.05);
+}
+
+.active {
+  border: 1px solid var(--primary-color);
+  background: #F2F4FF;
+
+  .label {
+    color: var(--primary-color);
+  }
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.icon {
+  padding: 2px;
+  border-radius: 3px;
+  color: var(--white-base);
+  font-size: 11px;
+  width: 17px;
+  margin-bottom: 7px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+}

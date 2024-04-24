@@ -1,0 +1,16 @@
+{
+  "menu": {
+    "configuration": "Configuration",
+    "futureState": "Future State",
+    "currentState": "Current State",
+    "selectedProcesses": "Selected Processes",
+    "futureProcesses": "Future State Processes Library",
+    "sprints": "Sprints",
+    "currentProcesses": "Current State Processes Library",
+    "structure": "Structure",
+    "processMapping": "Process Mapping",
+    "library": "Library",
+    "security": "Security",
+    "clientUsers": "Client Users"
+  }
+}

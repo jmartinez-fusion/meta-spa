@@ -1,0 +1,63 @@
+{
+  "singular": "Sprint",
+  "sprints": "Sprints",
+  "security": "Security",
+  "listing": {
+    "title": "Sprints"
+  },
+  "active": "Active",
+  "inactive": "Inactive",
+  "fields": {
+    "name": "Name",
+    "code": "#",
+    "startDate": "Start",
+    "dueDate": "End"
+  },
+  "dialog": {
+    "title": "{{action}} sprint",
+    "content": "Are you sure to {{action, lowercase}} this sprint?",
+    "delete": "Delete",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "status": "Active / Deactivate",
+    "cancel": "Cancel"
+  },
+  "filters": {
+    "sprint": "Sprint",
+    "sprintPlaceholder": "Name or Number",
+    "startDate": "Worked on From",
+    "endDate": "Worked on To"
+  },
+  "create": {
+    "title": "New Sprint",
+    "submit": "Create Sprint",
+    "cancel": "Cancel",
+    "cancelDialog": {
+      "title": "Cancel sprint creation",
+      "content": "Are you sure to cancel this sprint? All the progress will be lost",
+      "confirm": "Continue editing",
+      "cancel": "Exit"
+    }
+  },
+  "edit": {
+    "title": "Edit Sprint",
+    "submit": "Edit Sprint",
+    "cancel": "Cancel",
+    "cancelDialog": {
+      "title": "Cancel sprint edition",
+      "content": "Are you sure to cancel this edition? All the progress will be lost",
+      "confirm": "Continue editing",
+      "cancel": "Exit"
+    }
+  },
+  "details": {
+    "title": "View Sprint"
+  },
+  "form": {
+    "name": "Name",
+    "code": "Number",
+    "startDate": "Start Date",
+    "dueDate": "Due Date",
+    "save": "{{mode}} sprint"
+  }
+}

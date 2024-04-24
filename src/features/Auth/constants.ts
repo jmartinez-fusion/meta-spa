@@ -1,0 +1,4 @@
+export enum RESET_PASSWORD_ACTION {
+  CREATE_PASSWORD_ACTION = 'creation',
+  CHANGE_PASSWORD_ACTION = 'change',
+}

@@ -1,0 +1,20 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  align-items: center;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 50px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 30px;
+}

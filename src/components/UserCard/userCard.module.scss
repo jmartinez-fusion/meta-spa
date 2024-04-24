@@ -1,0 +1,30 @@
+.authUserContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background: var(--light-primary-color);
+  border-radius: 9px;
+  padding: 7px 10px;
+  overflow: hidden;
+  margin-top: 14px;
+
+  .avatar {
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+  }
+
+  .userInformation {
+    max-width: 100%;
+  }
+
+  .name {
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .email {
+    font-size: 10px;
+  }
+}

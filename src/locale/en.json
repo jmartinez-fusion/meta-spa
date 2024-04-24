@@ -1,0 +1,204 @@
+{
+  "accountPopover": {
+    "account": "Account",
+    "signOut": "Sign out"
+  },
+  "menu": {
+    "projects": "Projects",
+    "security": "Security",
+    "roles": "Roles",
+    "metaUsers": "Meta Users",
+    "logout": "Logout"
+  },
+  "errors": {
+    "401": {
+      "title": "401: Authorization required",
+      "description": "Oops! It seems you've encountered an access barrier. Make sure you're authenticated correctly to access this area.",
+      "goBackButton": "Go back"
+    },
+    "403": {
+      "title": "403: Forbidden page",
+      "description": "Oops! It seems you've not permissions to access this page.",
+      "goBackButton": "Go back"
+    },
+    "404": {
+      "title": "404: The page you are looking for isn’t here",
+      "description": "You've attempted to access an incorrect route or arrived here by mistake. Whatever the case, try using the navigation.",
+      "goBackButton": "Go back"
+    },
+    "410": {
+      "title": "The page you are looking for isn’t here",
+      "description": "You've attempted to access an incorrect or expired route.",
+      "goBackButton": "Go back"
+    },
+    "500": {
+      "title": "500: Internal Server Error",
+      "description": "Oh no! Our servers seem to be having a rough day. Don't worry, we're busy resolving this technical issue.",
+      "goBackButton": "Go back"
+    }
+  },
+  "validations": {
+    "required": "This field is required.",
+    "requiredWithField": "{{field}} is required.",
+    "requiredWithFieldPlural": "{{field}} are required.",
+    "string": "This field should be an alphanumeric text.",
+    "number": "This field should be a number.",
+    "stringOrNumber": "This field should be a text or number.",
+    "formatEmail": "This field should be a valid email.",
+    "passwordMatch": "The password must be equals.",
+    "charExceded": "This field should be less than {{maxChars}} characters.",
+    "file-invalid-type": "This selected file type is not allowed.",
+    "fileTypeMustBeCsv": "This selected file type is not allowed. Must be a .csv file.",
+    "invalidDate": "Please, enter a valid date.",
+    "invalidHour": "Please, enter a valid hour."
+  },
+  "export": "Export",
+  "fields": {
+    "name": "Name"
+  },
+  "common": {
+    "noOptionsSelected": "There are no selected options",
+    "copyToClipboard": "Copy to clipboard",
+    "dropYourFileHere": "Drop your file here",
+    "next": "Next",
+    "attachments": "Attachments",
+    "needToInstallCaptureExtension": "To continue capturing, you need to install our Google Chrome Extension",
+    "install": "Install",
+    "newSurvey": "New Survey",
+    "or": "Or ",
+    "clickHere": "click here",
+    "toSelectFromYourComputer": " to select from your computer",
+    "addQuestionToSurvey": "Add Question to Survey",
+    "selectSurveyToAddQuestion": "Select the survey to which you want to add the question to",
+    "row": "Row {{row}}",
+    "additions": "Additions:",
+    "deletions": "Deletions:",
+    "linkWithTextBlock": "Add to Library",
+    "addQuestion": "Add Question",
+    "done": "Done",
+    "updates": "Updates:",
+    "industries": "Industries",
+    "categories": "Categories",
+    "search": "Search",
+    "stop": "Stop",
+    "questionsBank": {
+      "title": "Questions Bank",
+      "add": "Add"
+    },
+    "textFormats": {
+      "bold": "bold",
+      "italic": "italic",
+      "underline": "underline"
+    },
+    "presentationTool": {
+      "addCapture": "Add capture",
+      "presentationComments": "Presentation Comments",
+      "discardChanges": "Discard changes",
+      "emptyPresentation": "This presentation is empty",
+      "deleteComment": "Delete comment",
+      "addDescription": "Add description",
+      "startDroppingCaptures": "Start by dropping your screen captures here or clicking the following buttons",
+      "actions": {
+        "comment": "Comment",
+        "blur": "Blur",
+        "selection": "Selection",
+        "rectangle": "Rectangle",
+        "textBlockSelection": "Link an element with a Text Block",
+        "highlight": "Highlight"
+      },
+      "stepTitle": "Step / Action",
+      "comments": "Comments",
+      "description": "Description",
+      "comment": "Comment",
+      "manualUploadToCmTool": "Manual upload to CM Tool",
+      "captureBrowserBasedProcess": "Capture browser-based process",
+      "manualMsg": "You can upload images and text for each step of the process",
+      "captureMsg": "You can use our browser extension to record and generate a step by step detail of your process automatically",
+      "manualBtn": "Manual",
+      "captureBtn": "Capture",
+      "processTitle": "Process Title"
+    },
+    "genericError": "An error has occurred",
+    "top_nav": {
+      "change_language": "Change Language"
+    },
+    "filters": {
+      "title": "Filters",
+      "search": "Search",
+      "clear": "Clean"
+    },
+    "coupon": {
+      "date": "{{dateFrom}} to {{dateTo}}"
+    },
+    "noResults": "There are no results",
+    "showingResults": "{{from}}-{{to}} of {{total}}",
+    "new": "New",
+    "import": "Import",
+    "export": "Export",
+    "delete": "Delete",
+    "actions": "Actions",
+    "retry": "Retry",
+    "assigned": "Assigned",
+    "notAssigned": "Not assigned",
+    "edit": "Edit",
+    "validate": "Validate",
+    "hide": "Deactivate",
+    "unhide": "Activate",
+    "view": "View details",
+    "qr": "Download QR",
+    "Yes": "Yes",
+    "No": "No",
+    "cancel": "Cancel",
+    "save": "Save",
+    "apply": "Apply",
+    "_toDate": "{{val, datetime}}",
+    "_toDateRange": "{{dateFrom, datetime}} - {{dateTo, datetime}}",
+    "_toDateTime": "{{date, datetime}} at {{time, datetime}}",
+    "_toDateTimeRange": "{{dateFrom, datetime}} at {{timeFrom, datetime}} - {{dateTo, datetime}} at {{timeTo, datetime}}",
+    "_toDateTimeRangeDiscount": "Start on {{dateFrom, datetime}} at {{timeFrom, datetime}} and finish on {{dateTo, datetime}} at {{timeTo, datetime}}",
+    "_toList": "{{val, list}}",
+    "createdSuccessfully": "New {{type, lowercase}} created successfully!",
+    "deletedSuccessfully": "The {{type, lowercase}} has been deleted successfully!",
+    "editedSuccessfully": "The {{type, lowercase}} has been edited successfully!",
+    "filters_zero": "Filters",
+    "filters_one": "Filters ({{count}})",
+    "filters_other": "Filters ({{count}})",
+    "shortWeekdays": {
+      "monday": "Mon",
+      "tuesday": "Tues",
+      "wednesday": "Wed",
+      "thursday": "Thurs",
+      "friday": "Fri",
+      "saturday": "Sat",
+      "sunday": "Sun"
+    },
+    "weekdays": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "publish": "Publish",
+    "unpublish": "Unpublish",
+    "highlight": "Highlight",
+    "notHighlight": "Not highlight",
+    "news": "News",
+    "promotion": "Promotion",
+    "event": "Event"
+  },
+  "authLayout": {
+    "projectName": "CM TOOL ",
+    "projectNameDescription": "Admin Panel",
+    "description": ""
+  },
+  "dropzone": {
+    "chooseFile": "Choose file",
+    "click": "Click to upload",
+    "dragAndDrop": "Drag and drop a file here",
+    "extensions": "({{extensions, list}})",
+    "recommendedSize": "We recommend that the image be no larger than {{min}}px and does not exceed {{max}}px."
+  }
+}

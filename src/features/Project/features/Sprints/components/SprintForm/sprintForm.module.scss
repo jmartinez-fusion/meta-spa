@@ -1,0 +1,26 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.topContainer {
+  display: grid;
+  grid-template-columns: 1fr 157px;
+  grid-gap: 20px;
+}
+
+.bottomContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 35px;
+  padding: 15px 0;
+  gap: 30px;
+}

@@ -1,0 +1,42 @@
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 35px;
+  padding: 15px 0;
+  gap: 30px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.processContainer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 30px;
+  font-size: 12px;
+  align-items: center;
+}
+
+.or {
+  position: relative;
+  top: 15px;
+}
+
+.rowForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 0;
+  gap: 20px;
+}
+
+.selectedProcess {
+  display: grid;
+  align-items: end;
+  grid-template-columns: 320px 150px;
+  gap: 20px;
+}

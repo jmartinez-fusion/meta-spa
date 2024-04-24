@@ -1,0 +1,38 @@
+.threeNode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  .processName {
+    font-size: 14px;
+
+    .code {
+      font-weight: 700;
+    }
+  }
+
+  .presentationButton {
+    height: fit-content !important;
+    width: fit-content !important;
+    padding: 0 !important;
+    color: #42C39C;
+    margin-left: 10px;
+  }
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 35px;
+  padding: 15px 0;
+  gap: 30px;
+  position: sticky;
+  bottom: 0;
+  background-color: var(--white-base);
+}
+
+.three {
+  margin-top: 20px;
+}

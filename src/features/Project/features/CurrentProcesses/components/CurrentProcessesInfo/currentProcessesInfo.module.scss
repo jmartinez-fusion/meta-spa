@@ -1,0 +1,30 @@
+.boxInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px 0;
+  gap: 10px;
+}
+
+.itemTitle {
+  text-align: left;
+  min-width: 130px;
+}
+
+.item {
+  text-align: left;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.itemLink {
+  color: var(--primary-color);
+  font-weight: 400;
+  text-decoration: underline;
+}

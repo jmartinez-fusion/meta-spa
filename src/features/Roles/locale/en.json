@@ -1,0 +1,88 @@
+{
+  "singular": "Role",
+  "roles": "Roles",
+  "security": "Security",
+  "listing": {
+    "title": "Roles"
+  },
+  "permissions": {
+    "auth": "Auth",
+    "clients": "Clients",
+    "industries": "Industries",
+    "projects": "Projects",
+    "roles": "Roles",
+    "future-processes": "Process Selection",
+    "client": "Client",
+    "process": "Process",
+    "permissions": "Permissions",
+    "project-role-management": "Project Role Management",
+    "structure-department": "Departments",
+    "current-processes": "Current Processes",
+    "text-blocks": "Text Blocks",
+    "tags": "Tags",
+    "surveys": "Surveys",
+    "categories": "Categories",
+    "influencers": "Influencers",
+    "future-process-presentations": "Future Process Presentation",
+    "current-process-presentations": "Current Process Presentation",
+    "process-mappings": "Process Mapping",
+    "question-banks": "Question Bank",
+    "spc": "SPC",
+    "selected-future-processes": "Future Processes",
+    "meta-users": "Meta Users",
+    "sprints": "Sprints",
+    "departments": "Departments",
+    "positions": "Positions",
+    "presentation": "Presentation",
+    "stakeholders": "Stakeholders"
+  },
+  "fields": {
+    "name": "Name",
+    "createdAt": "Created at"
+  },
+  "dialog": {
+    "title": "{{action}}",
+    "content": "Are you sure to {{action, lowercase}} this role?",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+  "filters": {
+    "name": "Name"
+  },
+  "create": {
+    "title": "New Role",
+    "cancelDialog": {
+      "title": "Cancel role creation",
+      "content": "Are you sure to cancel this role? All the progress will be lost",
+      "confirm": "Continue editing",
+      "cancel": "Exit"
+    }
+  },
+  "edit": {
+    "title": "Edit Role",
+    "cancelDialog": {
+      "title": "Cancel role edition",
+      "content": "Are you sure to cancel this edition? All the progress will be lost",
+      "confirm": "Continue editing",
+      "cancel": "Exit"
+    }
+  },
+  "details": {
+    "title": "View role",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "form": {
+    "role": {
+      "name": "Name",
+      "required": "Name is required"
+    },
+    "details": "Basic details",
+    "name": "Name",
+    "permissions": "Permissions",
+    "cancel": "Cancel",
+    "create": "Create role",
+    "edit": "Edit role",
+    "save": "{{mode}}"
+  }
+}

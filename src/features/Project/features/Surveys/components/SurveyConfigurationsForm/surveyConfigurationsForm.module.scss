@@ -1,0 +1,55 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.dateContainer {
+  display: grid;
+  grid-template-columns: repeat(2, var(--date-time-picker-width));
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.departmentContainer {
+  max-width: 300px;
+}
+
+.checkbox {
+  margin-left: 10px;
+  margin-top: 10px;
+
+  label > span:last-child {
+    margin-left: 10px;
+  }
+}
+
+.segmentationContainer {
+  display: flex;
+  margin-top: 30px;
+  gap: 80px;
+}
+
+.segmentationItem {
+  display: flex;
+  flex-direction: column;
+  label {
+    span:nth-child(2) {
+      margin-left: 10px;
+    }
+  }
+  .checkbox {
+    margin-left: 30px;
+    margin-top: 0;
+  }
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+  padding: 15px 0;
+  gap: 30px;
+}

@@ -1,0 +1,18 @@
+{
+  "fields": {
+    "stakeholder": "Stakeholder",
+    "department": "Department",
+    "influencer": "Influencer",
+    "position": "Position",
+    "projectRole": "Project role",
+    "lastAnsweredAt": "Last Answered At"
+  },
+  "filters": {
+    "stakeholder": "Stakeholder",
+    "departments": "Departments",
+    "positions": "Positions",
+    "projectRoles": "Project roles",
+    "influencers": "Influencer types"
+  },
+  "answers": "Answers"
+}

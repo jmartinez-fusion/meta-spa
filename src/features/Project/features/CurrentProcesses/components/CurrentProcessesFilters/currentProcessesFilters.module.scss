@@ -1,0 +1,44 @@
+@import 'src/styles/mixins.module.scss';
+
+.topFilters {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--filters-gap);
+
+  @include media-breakpoint-down(md) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.bottomFilters {
+  display: flex;
+  width: 100%;
+  gap: 35px;
+  .spcBranch {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .option {
+    margin: 10px 0 0 8px;
+    label > span:last-child {
+      margin-left: 10px;
+    }
+  }
+  .bottomFiltersWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, var(--date-picker-width));
+    gap: var(--filters-gap);
+  }
+
+  @include media-breakpoint-down(md) {
+    display: flex;
+    flex-direction: column;
+    gap: var(--filters-gap);
+
+    .bottomFiltersWrapper {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

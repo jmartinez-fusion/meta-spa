@@ -1,0 +1,25 @@
+.floatingActions {
+  position: fixed;
+  background: var(--white-base);
+  padding: 15px 20px;
+  display: flex;
+  z-index: 1111;
+  align-items: center;
+  gap: 15px;
+  bottom: 30px;
+  left: 50%;
+  border-radius: 12px;
+  border: 1px dashed var(--input-bg-color);
+  transform: translate(-50%, 0);
+}
+
+.dragActive {
+  border: 1px dashed var(--text-color);
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  border-left: 1px solid var(--input-bg-color);
+  padding-left: 20px;
+}

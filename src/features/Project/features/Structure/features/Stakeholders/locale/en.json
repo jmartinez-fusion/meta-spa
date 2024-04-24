@@ -1,0 +1,53 @@
+{
+  "singular": "Stakeholder",
+  "plural": "Stakeholders",
+  "currentState": "Current State",
+  "manager": "Manager",
+  "department": "Department",
+  "positions": "Positions",
+  "position": "Position",
+  "listing": {
+    "title": "Structure"
+  },
+  "view": "View Stakeholder",
+  "fields": {
+    "name": "Name",
+    "code": "Stakeholder ID",
+    "email": "Email",
+    "departments": "Departments",
+    "positions": "Positions",
+    "projectRole": "Project Role",
+    "updatedAt": "Updated at"
+  },
+  "create": {
+    "title": "Upload Stakeholders"
+  },
+  "changeProjectRole": {
+    "title": "Change Project Role"
+  },
+  "details": {
+    "stakeholderId": "Stakeholder ID",
+    "email": "Email",
+    "projectRole": "Project Role"
+  },
+  "emailSentSuccessFully": "An email was sent to the stakeholder to create their user",
+  "createUser": {
+    "title": "Create Stakeholder User",
+    "action": "Create User",
+    "content": "Are you sure that you want to create the stakeholder user?",
+    "cancel": "Cancel"
+  },
+  "filters": {
+    "isManager": "Is Manager",
+    "hasDepartment": "Has Department",
+    "stakeholder": {
+      "label": "Stakeholder",
+      "placeholder": "Name, Email or ID"
+    },
+    "departments": "Departments",
+    "positions": "Positions",
+    "updatedAtFrom": "Last updated at from",
+    "updatedAtTo": "Last updated at to",
+    "projectRoles": "Project Roles"
+  }
+}

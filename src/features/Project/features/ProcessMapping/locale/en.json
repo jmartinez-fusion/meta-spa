@@ -1,0 +1,132 @@
+{
+  "singular": "Process Mapping",
+  "processMapping": "Process Mapping",
+  "futureState": "Future State",
+  "newStatus": "New Status",
+  "process": "Process",
+  "security": "Security",
+  "id": "ID",
+  "reviewStatus": "Review Status",
+  "editPresentation": "Edit Presentation",
+  "startFromScratch": "Start from scratch",
+  "start": "Start presentation",
+  "editCurrentPresentation": "Edit Current Presentation",
+  "presentationSavedSuccessfully": "Presentation saved successfully",
+  "statusPresentation": "Review Presentation",
+  "save": "Save",
+  "cancel": "Cancel",
+  "edit": "Edit",
+  "review": "Review Presentation",
+  "view": "View Presentation",
+  "viewChildren": "View Children",
+  "mappedTo": "Mapped To",
+  "mappedStatus": "Mapped Status",
+  "influencer": "Influencer",
+  "listing": {
+    "title": "Process Mapping"
+  },
+  "upload": {
+    "title": "Upload Process Map",
+    "influencers": "Upload Influencers"
+  },
+  "fields": {
+    "name": "Name",
+    "createdAt": "Created at"
+  },
+  "dialog": {
+    "delete": "Delete",
+    "reset": "Reset",
+    "title": "{{action}}",
+    "content": "Are you sure to {{action, lowercase}} this future process?",
+    "confirm": "Continue",
+    "cancel": "Cancel"
+  },
+  "details": {
+    "processId": "Process ID",
+    "spc": "SPC",
+    "processName": "Process Name",
+    "parentProcess": "Parent Process",
+    "subProcesses": "Sub Processes",
+    "currentStateProcess": "Current State Processes",
+    "status": "Status",
+    "departmentId": "Department ID",
+    "parentDepartment": "Parent Dept.",
+    "subDepartment": "Sub Dept.",
+    "manager": "Manager"
+  },
+  "cancelSelectionDialog": {
+    "cancelSelection": "Cancel selection",
+    "title": "{{action}}",
+    "content": "Are you sure to cancel this selection? All the progress will be lost",
+    "confirm": "Continue selection",
+    "cancel": "Cancel"
+  },
+  "filters": {
+    "processBranch": "Process Branch",
+    "mappedTo": "Mapped To",
+    "reviewStatus": "Review Status",
+    "all": "All",
+    "unused": "Unused",
+    "rejected": "Rejected",
+    "pending": "Pending",
+    "notImplemented": "Not Implemented",
+    "reviewed": "Reviewed",
+    "mappedStatus": "Mapped Status",
+    "name": "Name",
+    "departments": "Departments",
+    "positions": "Positions",
+    "roles": "Roles",
+    "influences": "Influencer types",
+    "excluded": "Is excluded?"
+  },
+  "status": {
+    "notMapped": "Not Mapped",
+    "directlyMapped": "Directly Mapped",
+    "notStarted": "Not Started",
+    "inProcess": "In Process",
+    "routeForReview": "Route for Review",
+    "returned": "Returned",
+    "approved": "Approved"
+  },
+  "create": {
+    "title": "Process Mapping Upload",
+    "cancel": "Cancel",
+    "action": "Save",
+    "cancelDialog": {
+      "title": "Cancel Process mapping upload",
+      "content": "Are you sure to cancel this Process mapping? All the progress will be lost",
+      "confirm": "Continue editing",
+      "cancel": "Exit"
+    }
+  },
+  "form": {
+    "role": "Future Process",
+    "or": "or",
+    "processID": "Process ID",
+    "associatedSPC": "Associated SPC",
+    "name": "Name",
+    "parentFutureProcess": "Parent future process",
+    "industry": "Industry",
+    "cancel": "Cancel",
+    "create": "Create future process",
+    "save": "{{mode}}"
+  },
+  "influencers": {
+    "title": "Stakeholders",
+    "uploadTitle": "Upload Influencers",
+    "name": "Name",
+    "departments": "Departments",
+    "position": "Position",
+    "positions": "Positions",
+    "role": "Roles",
+    "projectRole": "Project Role",
+    "influences": "Influences",
+    "excluded": "Excluded",
+    "status": "Influencers Status",
+    "stakeholderId": "Stakeholder ID",
+    "email": "Email"
+  },
+  "createUser": {
+    "action": "Create User"
+  }
+}

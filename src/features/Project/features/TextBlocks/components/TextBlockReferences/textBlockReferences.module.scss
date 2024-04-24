@@ -1,0 +1,43 @@
+.referencesContainer {
+  margin-top: 30px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.reference {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 3px;
+}
+
+.breadCrumbItems {
+  font-size: 14px;
+}
+
+.titleItem {
+  font-weight: 700;
+}
+
+.redirect {
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  position: relative;
+  top: -2px;
+  align-items: flex-start;
+  margin-left: 5px;
+  max-height: 18px;
+  cursor: pointer;
+  color: var(--primary-color)
+}
+
+.redirectIcon {
+  font-size: 20px;
+  position: relative;
+  top: -1px;
+}

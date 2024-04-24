@@ -1,0 +1,107 @@
+.wrapper {
+  display: flex;
+  position: relative;
+  gap: 20px;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+  min-height: 50px;
+}
+
+.leftContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btnActionInfluencer {
+  background-color: var(--icon-button-background) !important;
+  color: var(--icon-button-color) !important;
+}
+
+.mainInfluencer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 50px;
+  padding: 15px 0;
+  button {
+    margin: 0 30px 0 0;
+  }
+}
+
+.headInfluencer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 15px 0;
+}
+
+.iconInfluencer {
+  margin-top: 10px;
+  color: var(--primary-color);
+}
+
+.nameInfluencer {
+  font-size: 20px;
+}
+
+.itemInfluencer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  span {
+    a {
+      color: var(--primary-color);
+      text-decoration: underline;
+    }
+  }
+}
+
+.influencerStatusHeader {
+  border-bottom: 1px solid var(--border-color);
+  border-radius: 20px 20px 0px 0;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.influencerStatusBox {
+  border-radius: 20px;
+  max-width: 30%;
+}
+
+.influencerStatusContent {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.influencerStatusColumn {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  label {
+    span:nth-child(2) {
+      margin-left: 10px;
+    }
+  }
+}
+
+.rowBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 15px;
+}

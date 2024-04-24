@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  align-self: flex-start;
+}
+
+.captureButton {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

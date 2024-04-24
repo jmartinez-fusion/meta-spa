@@ -1,0 +1,56 @@
+@import './variables.module';
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
+
+html {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background: var(--main-bg);
+  color: var(--text-color);
+  display: flex;
+  font-family: var(--main-font) !important;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ol,
+ul,
+li,
+p {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+:global {
+  #root {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .notistack-SnackbarContainer {
+    z-index: 5000 !important;
+  }
+
+  .notistack-MuiContent-error {
+    background: var(--error-color) !important;
+  }
+
+  .notistack-MuiContent-success {
+    background: var(--primary-color) !important;
+  }
+}

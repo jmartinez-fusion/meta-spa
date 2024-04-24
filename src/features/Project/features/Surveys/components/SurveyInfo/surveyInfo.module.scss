@@ -1,0 +1,48 @@
+@import 'src/styles/mixins.module.scss';
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: fit-content;
+  min-width: 400px;
+  max-width: 100%;
+  gap: 80px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.itemTitle {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.itemContent {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.itemSprint {
+  min-width: 250px;
+}

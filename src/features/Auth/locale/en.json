@@ -1,0 +1,54 @@
+ {
+  "signIn": "Sign in",
+  "passwordSuccessfullyChanged": "Password successfully changed",
+  "newPassword": "New Password",
+  "passwordShape": "Must have at least 8 characters, a lowercase and an uppercase letter, a number and a special character.",
+  "enterYourNewPassword": "Enter your new password",
+  "goToLogin": "Go back to Sign in",
+  "forgotPassword": "Password recovery",
+  "passwordActionSuccessfully": "Successful password {{action}}",
+  "forgotPasswordSubtitle": "We will be sending an email with a code to create a new password.",
+  "forgotPasswordDescription": "Please, enter the email address you are registered with in the input below.",
+  "resetPassword": "Reset password",
+  "emailSent": "Email successfully sent to {{email}}, please check your inbox to reset your password.",
+  "didYouNotReceiveTheEmail": "I didn't get the code",
+  "codeReceived": "You will receive a code in your inbox. Please enter it below.",
+  "securityCode": "Security Code",
+  "fields": {
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter your email",
+      "validationEmail": "Must be a valid email",
+      "validationRequired": "Email is required"
+    },
+    "code": {
+      "label": "Verification Code",
+      "validationLength": "Must be {{length}} digits",
+      "validationRequired": "Code is required"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Enter your password",
+      "validationRequired": "Password is required",
+      "validationMinLength": "Must have minimum 8 characters",
+      "validationUppercase": "Must have at least an uppercase letter",
+      "validationLowercase": "Must have at least a lowercase letter",
+      "validationNumber": "Must have at least a number",
+      "validationSpecialChar": "Must have at least a special character",
+      "validationMatch": "Passwords must be equal"
+    },
+    "passwordConfirm": {
+      "label": "Confirm your password",
+      "placeholder": "Confirm your password"
+    }
+  },
+  "buttons": {
+    "signIn": "Sign in",
+    "change": "Change",
+    "creation": "Create",
+    "continueLoading": "Loading...",
+    "validate": "Validate",
+    "sendEmail": "Send",
+    "forgotPassword": "Forgot password?"
+  }
+}

@@ -1,0 +1,31 @@
+.boxInfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid var(--border-color);
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.itemTitle {
+  text-align: left;
+  min-width: 130px;
+}
+
+.item {
+  text-align: left;
+}
+
+.itemLink {
+  color: var(--primary-color);
+  font-weight: 400;
+  text-decoration: underline;
+  margin-right: 10px;
+}

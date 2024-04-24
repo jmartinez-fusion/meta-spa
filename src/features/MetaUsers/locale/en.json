@@ -1,0 +1,84 @@
+{
+  "singular": "Meta User",
+  "metaUsers": "Meta Users",
+  "security": "Security",
+  "listing": {
+    "title": "Meta Users"
+  },
+  "active": "Active",
+  "inactive": "Inactive",
+  "fields": {
+    "name": {
+      "label": "Name",
+      "placeholder": "Name",
+      "validationRequired": "User name is required"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Email",
+      "validationRequired": "Email is required",
+      "validationInvalid": "Email is invalid"
+    },
+    "roles": {
+      "label": "Roles",
+      "placeholder": "Roles",
+      "validationRequired": "Roles is required"
+    },
+    "status": {
+      "label": "Status",
+      "placeholder": "Status",
+      "validationRequired": "Status is required"
+    },
+    "createdAt": {
+      "label": "Created At",
+      "placeholder": "Created At",
+      "validationRequired": "Created At is required"
+    }
+  },
+  "dialog": {
+    "title": "{{action}} meta user",
+    "content": "Are you sure to {{action, lowercase}} this meta user?",
+    "delete": "Delete",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "status": "Active / Deactivate",
+    "cancel": "Cancel"
+  },
+  "filters": {
+    "name": "Name",
+    "namePlaceholder": "Name",
+    "email": "Email",
+    "emailPlaceholder": "Email",
+    "roles": "Roles",
+    "active": "Active",
+    "inactive": "Inactive",
+    "createdAt": "Created At"
+  },
+  "create": {
+    "title": "Create User",
+    "submit": "Create User",
+    "cancel": "Cancel",
+    "cancelDialog": {
+      "title": "Cancel meta user creation",
+      "content": "Are you sure to cancel this meta user? All the progress will be lost",
+      "confirm": "Continue editing",
+      "cancel": "Exit"
+    }
+  },
+  "edit": {
+    "title": "Edit Meta User",
+    "submit": "Edit Meta User",
+    "cancelDialog": {
+      "title": "Cancel meta user edition",
+      "content": "Are you sure to cancel this edition? All the progress will be lost",
+      "confirm": "Continue editing",
+      "cancel": "Exit"
+    }
+  },
+  "details": {
+    "title": "View Meta User"
+  },
+  "form": {
+    "save": "{{mode}} meta user"
+  }
+}

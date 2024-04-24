@@ -1,0 +1,34 @@
+.mainContainer {
+  margin-top: 10px;
+}
+
+.attachments {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.attachment {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.type {
+  font-size: 22px;
+  color: var(--primary-color);
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fileName {
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  color: var(--text-color);
+  text-decoration: underline;
+  text-decoration-color: var(--lightest-text-color);
+}

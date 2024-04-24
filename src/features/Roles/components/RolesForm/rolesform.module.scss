@@ -1,0 +1,15 @@
+.permissionsContainer {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 35px;
+  padding: 15px 0;
+  gap: 30px;
+}

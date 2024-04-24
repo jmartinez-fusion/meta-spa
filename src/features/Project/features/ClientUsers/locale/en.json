@@ -1,0 +1,35 @@
+{
+  "singular": "Client User",
+  "clientUsers": "Client Users",
+  "security": "Security",
+  "listing": {
+    "title": "Client Users"
+  },
+  "fields": {
+    "name": {
+      "label": "Name",
+      "placeholder": "Name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Email"
+    },
+    "createdAt": {
+      "label": "Created At",
+      "placeholder": "Created At"
+    }
+  },
+  "filters": {
+    "name": "User",
+    "namePlaceholder": "Name or Email",
+    "email": "Email",
+    "emailPlaceholder": "Email",
+    "createdAt": "Created At"
+  },
+  "details": {
+    "title": "View Client User"
+  },
+  "form": {
+    "save": "{{mode}} client user"
+  }
+}

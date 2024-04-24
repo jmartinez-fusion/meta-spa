@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    width: 100%;
+}
+
+.goBackButton {
+    position: absolute;
+    left: -60px;
+    top: 9px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--lighter-text-color)
+}

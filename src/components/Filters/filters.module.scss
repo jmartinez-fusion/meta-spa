@@ -1,0 +1,30 @@
+@import "src/styles/mixins.module.scss";
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 165px;
+  width: 100%;
+  gap: 15px;
+  margin-bottom: 35px;
+
+  @include media-breakpoint-down(md) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: fit-content;
+  position: relative;
+  top: 28px;
+  color: var(--lighter-text-color);
+}

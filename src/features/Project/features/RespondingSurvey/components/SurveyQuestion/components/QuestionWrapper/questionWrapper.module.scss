@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background: var(--white-base);
+  width: 100%;
+  padding: 20px 40px;
+  border-radius: 9px;
+}
+
+.actions {
+  display: flex;
+  align-self: center;
+  margin-bottom: 40px;
+  margin-top: 15px;
+  gap: 15px;
+}

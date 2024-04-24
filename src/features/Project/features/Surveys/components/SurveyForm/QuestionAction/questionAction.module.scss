@@ -1,0 +1,30 @@
+.container {
+  padding: 5px;
+  border-bottom: 1px solid #C5C5C5;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+}
+
+.toolbarItem {
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  padding: 3px;
+  border-radius: 4px;
+  justify-content: center;
+  height: 100%;
+  color: var(--primary-color);
+
+  path {
+    fill: var(--primary-color);
+    transition: fill 200ms ease;
+  }
+
+  &:hover path {
+    fill: var(--primary-hover-color);
+    transition: fill 200ms ease;
+  }
+}

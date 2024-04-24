@@ -1,0 +1,9 @@
+@import "src/styles/mixins.module.scss";
+
+.mainContent {
+  background: var(--main-bg);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 40px 28px;
+}

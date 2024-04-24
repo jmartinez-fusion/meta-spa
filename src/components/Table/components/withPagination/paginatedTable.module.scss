@@ -1,0 +1,13 @@
+.paginator {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.showingResults {
+  font-size: 10px;
+  margin-left: 10px;
+  font-weight: 400;
+}

@@ -1,0 +1,34 @@
+.boxTypes {
+  display: flex;
+  margin-bottom: 20px;
+  align-self: center;
+  gap: 20px;
+}
+
+.boxType {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 285px;
+  width: 223px;
+  padding: 20px;
+  border-radius: 24px;
+  background-color: var(--white-base);
+  button {
+    margin-top: auto;
+  }
+  h2 {
+    font-size: 14px;
+    margin-top: 10px;
+    align-self: flex-start;
+  }
+  p {
+    font-size: 12px;
+  }
+  svg {
+    align-self: flex-start;
+    color: rgba(56, 84, 181, 0.35);
+    font-size: 35px;
+  }
+}

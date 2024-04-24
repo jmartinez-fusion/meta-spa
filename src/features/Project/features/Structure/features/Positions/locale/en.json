@@ -1,0 +1,22 @@
+{
+  "singular": "Position",
+  "plural": "Positions",
+  "currentState": "Current State",
+  "listing": {
+    "title": "Structure"
+  },
+  "fields": {
+    "name": "Name",
+    "code": "External ID",
+    "updatedAt": "Updated at"
+  },
+  "create": {
+    "title": "Upload Positions"
+  },
+  "filters": {
+    "name": "Name",
+    "code": "External ID",
+    "updatedAtFrom": "Last updated at from",
+    "updatedAtTo": "Last updated at to"
+  }
+}

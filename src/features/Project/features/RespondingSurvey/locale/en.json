@@ -1,0 +1,14 @@
+{
+  "title": "Responding Survey",
+  "capture": "Capture",
+  "previousQuestion": "Previous question",
+  "welcome": "Welcome",
+  "welcomeDescription": "Tollere odium autem in nostra potestate sint, ab omnibus et contra naturam transferre in nobis. Sed interim toto desiderio supprimunt: si vis aliqua quae in manu tua tibi necesse confundentur et quae, quod laudabile esset, nihil tamen possides.\nOportet uti solum de actibus prosequtionem et fugam, haec leniter et blandus et reservato",
+  "end": "Thank you!",
+  "endDescription": "Thank you for completing this survey.",
+  "start": "Start",
+  "nextQuestion": "Next question",
+  "processSteps": "Process Steps",
+  "select": "-Select-",
+  "response": "Response"
+}

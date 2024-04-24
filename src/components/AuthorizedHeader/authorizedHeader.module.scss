@@ -1,0 +1,60 @@
+@import "src/styles/mixins.module.scss";
+
+.wrapper {
+  background: transparent;
+  height: var(--top-mobile-header-height);
+  width: 100%;
+  padding: 0 35px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 4px 10px 3px rgba(102, 102, 102, 0.09);
+  border-bottom: 2px solid var(--sidebar-bg);
+  display: none;
+
+  @include media-breakpoint-down(md) {
+    background: var(--main-bg);
+    box-shadow: none;
+    border-bottom: none;
+    display: flex;
+    border-bottom: 1px solid var(--border-color);
+  }
+}
+
+.contentContainer {
+  align-items: center;
+  display: flex;
+  position: relative;
+  flex: 1;
+  justify-content: space-between;
+
+  @include media-breakpoint-down(md) {
+    justify-content: center;
+  }
+}
+
+.logo {
+  width: 43px;
+  position: relative;
+  top: 3px;
+  display: none;
+
+  @include media-breakpoint-down(md) {
+    display: initial;
+  }
+}
+
+.menuTrigger {
+  display: none;
+  color: var(--light-text-color);
+  transition: color 200ms ease;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: 4px;
+  transform: translate(0, -50%);
+
+  @include media-breakpoint-down(md) {
+    display: initial;
+  }
+}

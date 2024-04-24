@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.option {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.mainLabel {
+  font-weight: 700;
+}
+
+.subOptions {
+  margin-left: 20px;
+}

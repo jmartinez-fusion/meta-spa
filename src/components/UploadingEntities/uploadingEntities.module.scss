@@ -1,0 +1,100 @@
+$progress-height: 8px;
+
+.mainContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contentContainer {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: var(--white-base);
+  gap: 15px;
+  font-size: 14px;
+  padding: 15px 20px;
+  width: 100%;
+  max-width: 100%;
+  font-weight: 700;
+  border: 1px solid #B2B2B2;
+}
+
+.uploadingContainer {
+  width: 100%;
+  min-width: 100%;
+  display: flex;
+  gap: 15px;
+  margin-right: 15px;
+}
+
+.error {
+  background: #FFF6F5;
+  border: 1px solid var(--error-color)
+}
+
+.uploadStatus {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 100%;
+}
+
+.filePath {
+  font-size: 14px;
+  font-weight: 700;
+  word-break: break-word;
+}
+
+.fileSize {
+  font-size: 8px;
+  font-weight: 400;
+  color: var(--lighter-text-color);
+}
+
+.progressBarContainer {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.wrapper {
+  height: $progress-height;
+  width: 100%;
+  flex: 1;
+  border-radius: 100px;
+  background-color: #F6F6F6;
+  position: relative;
+}
+
+.filler {
+  width: 0;
+  height: 100%;
+  background-color: var(--primary-color);
+  border-radius: inherit;
+  transition: width 1s ease-in-out;
+}
+
+.value {
+  font-size: 8px;
+  margin-left: 10px;
+  color: var(--lightest-text-color);
+  display: flex;
+  min-width: 32px;
+  align-items: center;
+}
+
+.finishedUploadContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.doneButton {
+  width: 145px;
+}

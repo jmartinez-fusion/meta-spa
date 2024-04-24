@@ -1,0 +1,35 @@
+{
+  "singular": "Department",
+  "plural": "Departments",
+  "currentState": "Current State",
+  "stakeholders": "Stakeholders",
+  "listing": {
+    "title": "Structure"
+  },
+  "fields": {
+    "name": "Name",
+    "departmentCode": "Department ID",
+    "parentDepartment": "Parent",
+    "updatedAt": "Updated at"
+  },
+  "dialog": {
+    "delete": "Delete",
+    "reset": "Reset",
+    "title": "{{action}}",
+    "content": "Are you sure to {{action, lowercase}} this current process?",
+    "confirm": "Continue",
+    "cancel": "Cancel"
+  },
+  "create": {
+    "title": "Upload Departments"
+  },
+  "details": {
+    "subDepartments": "Sub Dept.",
+    "departmentId": "Department ID",
+    "parentDepartment": "Parent Dept."
+  },
+  "filters": {
+    "name": "Name",
+    "parentName": "Parent"
+  }
+}

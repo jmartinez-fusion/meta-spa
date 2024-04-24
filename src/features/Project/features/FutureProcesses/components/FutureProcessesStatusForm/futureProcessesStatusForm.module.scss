@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.selectForm {
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+
+.inputHidden {
+  display: none;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 15px 0;
+  button {
+    margin: 0 20px 0 0;
+  }
+}

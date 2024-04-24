@@ -1,0 +1,5 @@
+.headerContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 110px);
+  gap: 20px;
+}

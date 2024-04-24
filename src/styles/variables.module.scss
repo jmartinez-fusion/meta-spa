@@ -1,0 +1,68 @@
+@import "mixins.module";
+
+:root {
+  --main-font: 'Figtree', sans-serif;
+  // base
+  --primary-color: #3854b5;
+  --light-primary-color: rgba(56, 84, 181, 0.05);
+  --dark-primary-color: #102778;
+  --secondary-color: #f5f7ff;
+  --dark-secondary-color: rgba(0, 0, 0, 0.05);
+  --darker-secondary-color: rgba(0, 0, 0, 0.1);
+  --white-base: #fff;
+  --main-bg: rgba(246, 247, 248, 1);
+  --text-color: rgba(0, 0, 0, 1);
+  --light-text-color: #484848;
+  --lighter-text-color: rgba(0, 0, 0, 0.5);
+  --lightest-text-color: rgba(0, 0, 0, 0.3);
+  --thumb-scroll-color: #b4b4b4;
+
+  --loading-ring-color: var(--primary-color);
+  --border-color: rgba(56, 84, 181, 0.05);
+  --border-color-dropzone: rgba(0, 0, 0, 0.05);
+  --table-border: rgba(85, 103, 122, 0.1);
+
+  // hover
+  --primary-hover-color: var(--dark-primary-color);
+
+  --button-default-background: var(--primary-color);
+  --button-default-background-hover: var(--primary-hover-color);
+  --button-outlined-background: var(--light-primary-color);
+  --button-outlined-background-hover: var(--primary-color);
+  --button-cancel-background: #9a9a9a;
+  --button-cancel-background-hover: #8b8b8b;
+  --button-default-color: #ffffff;
+  --button-contained-secondary-background: rgba(232, 42, 179, 0.1);
+  --button-contained-secondary-background-hover: rgba(232, 42, 179, 0.6);
+  --button-contained-secondary-color: #e82ab3;
+  --button-contained-secondary-color-hover: var(--white-base);
+  --icon-button-background: #fdeaf7;
+  --icon-button-color: #e82ab3;
+
+  --input-bg-color: rgba(247, 247, 247, 1);
+  --input-placeholder-color: var(--lightest-text-color);
+  --input-border-color-focused: var(--light-primary-color);
+
+  --error-color: #c93a2b;
+
+  --header-height: 0px;
+  --top-mobile-header-height: 65px;
+  --sidebar-width: 222px;
+
+  @include media-breakpoint-down(md) {
+    --sidebar-width: 0;
+  }
+
+  --date-picker-width: 150px;
+  --date-time-picker-width: 200px;
+
+
+  // filters
+  --filters-gap: 10px;
+
+  // Chips
+  --chip-background-success: rgba(66, 195, 156, 0.1);
+  --chip-color-success: rgba(66, 195, 156, 1);
+  --chip-background-error: rgba(201, 58, 43, 0.1);
+  --chip-color-error: rgba(201, 58, 43, 1);
+}

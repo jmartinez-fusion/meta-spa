@@ -1,0 +1,66 @@
+.rowForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  gap: 20px;
+}
+
+.gridForm3 {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, var(--date-picker-width));
+  grid-gap: 20px;
+}
+
+.rowBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 15px 0;
+  button {
+    margin: 0 30px 0 0;
+  }
+}
+
+.previewImage {
+  width: 100px;
+  height: 100%;
+}
+
+.linkCancel {
+  color: var(--error-color);
+  margin: 0 30px 0 0;
+  padding: 10px 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.inputForm {
+  min-width: 70%;
+}
+
+.updateTitle {
+  padding-top: 10px;
+  p {
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+}
+
+.helpText {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 8px;
+  padding-top: 20px;
+  min-width: 260px;
+  p {
+    margin-left: 10px;
+  }
+}

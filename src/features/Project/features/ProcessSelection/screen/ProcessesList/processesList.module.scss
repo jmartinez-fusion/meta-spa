@@ -1,0 +1,33 @@
+.threeNode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  .futureProcessName {
+    font-size: 14px;
+
+    .code {
+      font-weight: 700;
+    }
+  }
+
+  .deleteButton {
+    height: fit-content !important;
+    width: fit-content !important;
+    padding: 0 !important;
+    color: var(--error-color);
+  }
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 35px;
+  padding: 15px 0;
+  gap: 30px;
+  position: sticky;
+  bottom: 0;
+  background-color: var(--white-base);
+}

@@ -1,0 +1,12 @@
+@import 'src/styles/mixins.module.scss';
+
+.topFilters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--filters-gap);
+
+  @include media-breakpoint-down(md) {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Library",
+  "singular": "Text Block",
+  "copiedSuccessfully": "Text Block url copied successfully",
+  "textBlockLinkedSuccessfully": "Text Block linked successfully",
+  "references": "References",
+  "select": "Select",
+  "filters": {
+    "question": "Search",
+    "questionPlaceholder": "Title, Content, ...",
+    "categories": "Categories",
+    "tags": "Tags",
+    "spcs": "SPCs",
+    "createdAtFrom": "Created At From",
+    "createdAtTo": "Created At To",
+    "updatedAtFrom": "Updated At From",
+    "updatedAtTo": "Updated At To"
+  },
+  "goToSurvey": "Go to survey",
+  "goToPresentation": "Go to presentation",
+  "presentationStep": "Step {{number}}",
+  "modules": {
+    "future_state_process": "Future State",
+    "current_state_process": "Current State"
+  },
+  "listing": {
+    "created": "Created",
+    "updated": "Updated",
+    "edit": "Edit",
+    "duplicate": "Duplicate Text Block",
+    "share": "Share",
+    "view": "View Text Block",
+    "isGlobal": "Is a Text Block Global",
+    "shareUrl": "Share url Text Block",
+    "close": "Close"
+  },
+  "create": {
+    "title": "New Text Block"
+  },
+  "form": {
+    "title": "New Text Block",
+    "titleLabel": "Title",
+    "properties": "Properties",
+    "category": "Category",
+    "tags": "Tags",
+    "cancel": "Discard changes",
+    "submit": "Save",
+    "created": "Created",
+    "updated": "Updated",
+    "back": "Back",
+    "errors": {
+      "title": "Title is required",
+      "description": "Description is required"
+    }
+  }
+}

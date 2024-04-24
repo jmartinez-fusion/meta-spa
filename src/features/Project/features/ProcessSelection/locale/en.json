@@ -1,0 +1,53 @@
+{
+  "singular": "Future Process",
+  "configuration": "Configuration",
+  "availableProcesses": "Available Processes ({{industry}})",
+  "selectionSavedSuccessfully": "Selection saved successfully",
+  "parentFutureProcessOrAssociatedSpcRequired": "Parent future process or Associated SPC is required",
+  "futureProcess": "Future Process",
+  "listing": {
+    "title": "Selected Processes"
+  },
+  "fields": {
+    "name": "Name",
+    "createdAt": "Created at"
+  },
+  "dialog": {
+    "delete": "Delete",
+    "title": "{{action}}",
+    "content": "Are you sure to {{action, lowercase}} this future process?",
+    "confirm": "Continue",
+    "cancel": "Cancel"
+  },
+  "cancelSelectionDialog": {
+    "cancelSelection": "Cancel selection",
+    "title": "{{action}}",
+    "content": "Are you sure to cancel this selection? All the progress will be lost",
+    "confirm": "Continue selection",
+    "cancel": "Cancel"
+  },
+  "filters": {
+    "name": "Name"
+  },
+  "create": {
+    "title": "New Future Process",
+    "cancelDialog": {
+      "title": "Cancel future process creation",
+      "content": "Are you sure to cancel this future process? All the progress will be lost",
+      "confirm": "Continue editing",
+      "cancel": "Exit"
+    }
+  },
+  "form": {
+    "role": "Future Process",
+    "or": "or",
+    "processID": "Process ID",
+    "associatedSPC": "Associated SPC",
+    "name": "Name",
+    "parentFutureProcess": "Parent future process",
+    "industry": "Industry",
+    "cancel": "Cancel",
+    "create": "Create future process",
+    "save": "{{mode}}"
+  }
+}

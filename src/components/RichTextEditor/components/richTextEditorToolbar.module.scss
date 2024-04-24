@@ -1,0 +1,39 @@
+.toolbar {
+  background: var(--white-base);
+  box-shadow: 0 1px 6px 4px rgba(0, 0, 0, 0.09);
+  width: fit-content;
+  border-radius: 10px;
+  z-index: 300;
+  padding: 10px;
+  top: -25px;
+  right: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 5px;
+    transition: 0.3s;
+    line-height: 1;
+    display: flex;
+
+    & + button {
+      margin-left: 5px;
+    }
+  }
+}
+
+.markButtonActive {
+  color: var(--primary-color);
+}

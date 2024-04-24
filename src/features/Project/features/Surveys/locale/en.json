@@ -1,0 +1,103 @@
+{
+  "fields": {
+    "title": "Title",
+    "description": "Description",
+    "type": "Type",
+    "deliveredAt": "Delivered At",
+    "closedAt": "Closed At",
+    "process": "Process",
+    "departments": "From department",
+    "startStep": "Start at step",
+    "endStep": "End at step (optional)",
+    "questions": {
+      "type": "Type",
+      "title": "Question",
+      "description": "Description "
+    },
+    "status": "Status",
+    "responses": "Responses"
+  },
+  "questions": "Questions",
+  "associateToProcess": "Associate to process",
+  "dropdownQuestion": {
+    "options": "Options"
+  },
+  "configurations": {
+    "title": "Open & Delivery",
+    "submit": "Save",
+    "cancel": "Cancel"
+  },
+  "answer": {
+    "response": "Response",
+    "responses": "Responses",
+    "lastAnswered": "Last Answered",
+    "position": "Position",
+    "influencerType": "Influencer Type",
+    "department": "Department",
+    "projectRole": "Project Role"
+  },
+  "continue": "Continue",
+  "close": "Close",
+  "segmentation": "Segmentation",
+  "includeChildren": "Include children",
+  "allDepartmentStakeholders": "All departments stakeholders",
+  "allInfluencerStakeholders": "All influencer stakeholders",
+  "associatedInfluencers": "Influencers associated with survey processes",
+  "includingExcluded": "Including “excluded”",
+  "deadline": "Deadline",
+  "stakeholders": "Stakeholders",
+  "updated": "Updated",
+  "created": "Created",
+  "status": {
+    "label": "Status",
+    "pending": "Pending",
+    "closed": "Closed",
+    "open": "Open",
+    "failed": "Failed"
+  },
+  "fromScratch": "From Scratch",
+  "fromQuestionBank": "From Question Bank",
+  "questionTypes": {
+    "dropdown": "Dropdown",
+    "paragraph": "Paragraph"
+  },
+  "surveyConfigurationsSavedSuccessfully": "Survey configurations saved successfully",
+  "surveySavedSuccessfully": "Survey saved successfully",
+  "actions": {
+    "move": "Move",
+    "clone": "Clone",
+    "remove": "Remove"
+  },
+  "options": "Options",
+  "dialog": {
+    "title": "{{action}} survey",
+    "content": "Are you sure to {{action, lowercase}} this survey?",
+    "close": "Close",
+    "stop": "Stop",
+    "continue": "Continue",
+    "exit": "Exit"
+  },
+  "save": "Save",
+  "addQuestion": "Add Question",
+  "types": {
+    "context": "Context",
+    "capture": "Capture"
+  },
+  "statuses": {
+    "open": "Open",
+    "paused": "Paused",
+    "pending": "Pending",
+    "closed": "Closed",
+    "failed": "Failed"
+  },
+  "filters": {
+    "title": "Title",
+    "status": "Status",
+    "deliveredAtFrom": "Delivered at from",
+    "deliveredAtTo": "Delivered at to",
+    "closedAtFrom": "Closed at from",
+    "closedAtTo": "Closed at to"
+  },
+  "answers": "Answers",
+  "sprint": "Sprint"
+}

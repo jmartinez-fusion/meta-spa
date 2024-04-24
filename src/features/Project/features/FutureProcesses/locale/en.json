@@ -1,0 +1,113 @@
+{
+  "singular": "Future Process",
+  "futureProcesses": "Future State Processes Library",
+  "futureState": "Future State",
+  "newStatus": "New Status",
+  "process": "Process",
+  "security": "Security",
+  "id": "ID",
+  "reviewStatus": "Review Status",
+  "editPresentation": "Edit Presentation",
+  "startFromScratch": "Start from scratch",
+  "start": "Start presentation",
+  "editCurrentPresentation": "Edit Current Presentation",
+  "presentationSavedSuccessfully": "Presentation saved successfully",
+  "statusPresentation": "Review Presentation",
+  "save": "Save",
+  "cancel": "Cancel",
+  "edit": "Edit",
+  "review": "Review Presentation",
+  "view": "View Presentation",
+  "viewChildren": "View Children",
+  "listing": {
+    "title": "Future State Processes Library"
+  },
+  "fields": {
+    "name": "Name",
+    "createdAt": "Created at"
+  },
+  "dialog": {
+    "delete": "Delete",
+    "reset": "Reset",
+    "title": "{{action}}",
+    "content": "Are you sure to {{action, lowercase}} this future process?",
+    "confirm": "Continue",
+    "cancel": "Cancel"
+  },
+  "details": {
+    "processId": "Process ID",
+    "spc": "SPC",
+    "processName": "Process Name",
+    "parentProcess": "Parent Process",
+    "subProcesses": "Sub Processes",
+    "status": "Status"
+  },
+  "cancelSelectionDialog": {
+    "cancelSelection": "Cancel selection",
+    "title": "{{action}}",
+    "content": "Are you sure to cancel this selection? All the progress will be lost",
+    "confirm": "Continue selection",
+    "cancel": "Cancel"
+  },
+  "filters": {
+    "processBranch": "Process Branch",
+    "mappedTo": "Mapped To",
+    "reviewStatus": "Review Status",
+    "all": "All",
+    "unused": "Unused",
+    "rejected": "Rejected",
+    "pending": "Pending",
+    "notImplemented": "Not Implemented",
+    "reviewed": "Reviewed"
+  },
+  "status": {
+    "notStarted": "Not Started",
+    "inProcess": "In Process",
+    "routeForReview": "Route for Review",
+    "returned": "Returned",
+    "approved": "Approved"
+  },
+  "create": {
+    "title": "New Future Process",
+    "cancelDialog": {
+      "title": "Cancel future process creation",
+      "content": "Are you sure to cancel this future process? All the progress will be lost",
+      "confirm": "Continue editing",
+      "cancel": "Exit"
+    }
+  },
+  "surveys": {
+    "listing": {
+      "title": "Surveys"
+    },
+    "create": {
+      "title": "New Survey"
+    },
+    "edit": {
+      "title": "Edit Survey"
+    },
+    "configurations": {
+      "title": "Open & Delivery"
+    },
+    "answer": {
+      "title": "Answers"
+    }
+  },
+  "answers": {
+    "listing": {
+      "title": "Answers"
+    }
+  },
+  "form": {
+    "role": "Future Process",
+    "or": "or",
+    "processID": "Process ID",
+    "associatedSPC": "Associated SPC",
+    "name": "Name",
+    "parentFutureProcess": "Parent future process",
+    "industry": "Industry",
+    "cancel": "Cancel",
+    "create": "Create future process",
+    "save": "{{mode}}"
+  }
+}

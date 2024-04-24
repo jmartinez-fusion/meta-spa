@@ -1,0 +1,134 @@
+{
+  "singular": "Project",
+  "projects": "Projects",
+  "goToProject": "Go to project",
+  "listing": {
+    "title": "Projects"
+  },
+  "add": "Add",
+  "projectRoles": {
+    "title": "Manage Access",
+    "users": "Users",
+    "projectRole": "Project Role",
+    "availableUsers": "Available Users"
+  },
+  "projectConfigurations": {
+    "title": "Project Settings",
+    "connection": "Connection",
+    "submit": "Save",
+    "cancel": "Cancel",
+    "tls": "TLS",
+    "ssl": "SSL",
+    "configurationsSavedSuccessfully": "Settings successfully saved",
+    "fields": {
+      "host": "Host",
+      "port": "Port",
+      "protocol": "Protocol",
+      "username": "Username",
+      "senderName": "Sender Name",
+      "senderEmailAddress": "Sender Email Address",
+      "password": "Password"
+    },
+    "cancelDialog": {
+      "title": "Cancel progress",
+      "content": "Are you sure to cancel this edition? All the progress will be lost",
+      "confirm": "Continue editing",
+      "cancel": "Exit"
+    }
+  },
+  "fields": {
+    "industry": "Industry",
+    "startDate": "Start date",
+    "dueDate": "Due date",
+    "createdAt": "Created at",
+    "actions": "Actions",
+    "search": "Search",
+    "client": {
+      "label": "Client Name",
+      "placeholder": "Client Name",
+      "validationRequired": "Client is required"
+    },
+    "industries": {
+      "label": "Industry",
+      "placeholder": "Select Industry",
+      "validationRequired": "Industry is required"
+    },
+    "licenseInformation": {
+      "label": "Licensing Information",
+      "validationRequired": "Licensing Information is required"
+    },
+    "name": {
+      "label": "Project Name",
+      "placeholder": "Project Name",
+      "validationRequired": "Project name is required"
+    },
+    "startDateFrom": {
+      "label": "Start Date",
+      "placeholder": "Start Date",
+      "validationRequired": "Start Date is required"
+    },
+    "startDateTo": {
+      "label": "Due Date",
+      "placeholder": "Due Date",
+      "validationRequired": "Due Date is required"
+    },
+    "logo": {
+      "label": "Project Logo",
+      "placeholder": "Project Logo",
+      "error": "Project Logo is required"
+    }
+  },
+  "dialog": {
+    "title": "{{action}} project",
+    "content": "Are you sure to {{action, lowercase}} this project?",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+  "delete-assigned-user": {
+    "title": "Delete assigned user",
+    "content": "Are you sure to delete this assigned user?",
+    "cancel": "Cancel"
+  },
+  "filters": {
+    "client": "Client",
+    "clientPlaceholder": "Name or Enterprise ID",
+    "projectName": "Project name",
+    "industries": "Industries",
+    "startDateTo": "Start date to",
+    "startDateFrom": "Start date from",
+    "dueDateTo": "Due date to",
+    "dueDateFrom": "Due date from",
+    "createdAtTo": "Created at to",
+    "createdAtFrom": "Created at from",
+    "active": "Active"
+  },
+  "create": {
+    "title": "Create Project",
+    "client": "Client",
+    "submit": "Create Project",
+    "cancel": "Cancel",
+    "cancelDialog": {
+      "title": "Cancel project creation",
+      "content": "Are you sure to cancel this project? All the progress will be lost",
+      "confirm": "Continue editing",
+      "cancel": "Exit"
+    }
+  },
+  "edit": {
+    "title": "Edit Project",
+    "client": "Client",
+    "submit": "Edit Project",
+    "cancelDialog": {
+      "title": "Cancel project edition",
+      "content": "Are you sure to cancel this edition? All the progress will be lost",
+      "confirm": "Continue editing",
+      "cancel": "Exit"
+    }
+  },
+  "details": {
+    "title": "View Project"
+  },
+  "form": {
+    "save": "{{mode}} project"
+  }
+}

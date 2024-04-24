@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  max-width: 1200px;
+  margin: 30px;
+  width: 100%;
+  align-self: center;
+  align-items: center;
+}
+
+.surveyTitle {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.progressContainer {
+  margin: 20px 0;
+  width: 375px;
+}

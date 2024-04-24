@@ -1,0 +1,26 @@
+.resultContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 14px;
+  align-items: center;
+  width: 100%;
+}
+
+.filePath {
+  font-size: 14px;
+  font-weight: 700;
+  word-break: break-word;
+  min-width: 180px;
+  max-width: 100px;
+}
+
+.informationContainer {
+  display: flex;
+  gap: 3px;
+  font-size: 14px;
+  font-weight: 400;
+
+  .title {
+    font-weight: 700;
+  }
+}

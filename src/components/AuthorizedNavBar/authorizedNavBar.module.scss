@@ -1,0 +1,138 @@
+@import "src/styles/mixins.module.scss";
+
+.authorizedNavBarContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 4px 4px 0 rgba(148, 148, 148, 0.05);
+  z-index: 2;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    background: var(--white-base);
+    width: 6px;
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--thumb-scroll-color);
+    width: 4px;
+    border-radius: 5px;
+  }
+
+  @include media-breakpoint-down(md) {
+    background: var(--main-bg);
+    padding-top: 10px;
+  }
+}
+
+.collapsed {
+  overflow: hidden;
+  align-items: center;
+  overflow-y: auto;
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--thumb-scroll-color);
+    width: 4px;
+    border-radius: 5px;
+  }
+}
+
+.closeIcon {
+  display: none;
+  position: absolute;
+  right: 18px;
+  top: 18px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  @include media-breakpoint-down(md) {
+    display: initial;
+  }
+}
+
+.navContainer {
+  flex: 1;
+}
+
+.bottomSection {
+  display: flex;
+  align-items: flex-end;
+  margin: 20px 0;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-color);
+}
+
+.headerIconsContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+}
+
+.wideLogo {
+  width: 61px;
+  align-self: center;
+
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+}
+
+.compactLogo {
+  width: 60px;
+  position: relative;
+  align-self: center;
+  top: 10px;
+  left: 0;
+}
+
+.actionIcon {
+  position: absolute;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  color: var(--light-text-color);
+
+  &:hover {
+    color: var(--text-color);
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out;
+  }
+}
+
+.expandIcon {
+  right: -5px;
+  top: -10px;
+}
+
+.collapseIcon {
+  right: -17px;
+  top: -10px;
+}
+
+.configsIcon {
+  position: relative;
+  margin-left: 4px;
+  margin-right: 13px !important;
+}
+
+.number {
+  font-size: 14px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
