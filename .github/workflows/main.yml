@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: idwwmbyiyhww/metaspa:latest
+          tags: iad.ocir.io/idwwmbyiyhww/metaspa:latest
